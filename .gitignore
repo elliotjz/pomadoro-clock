@@ -1,18 +1,41 @@
-# http://www.gnu.org/software/automake
 
-Makefile.in
+# Created by https://www.gitignore.io/api/osx,codekit
 
-# http://www.gnu.org/software/autoconf
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+/min
 
-/autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.h.in
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.gitignore.io/api/osx,codekit
