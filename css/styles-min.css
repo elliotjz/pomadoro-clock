@@ -2,44 +2,44 @@ body {
   text-align: center;
   background-color: #2B2B2B;
   font-family: 'Montserrat', sans-serif;
-  color: #ECECEA;
-}
+  color: #ECECEA; }
 
 h1 {
   margin-top: 4vw;
   font-family: 'Josefin Slab', serif;
-  color: #D9853B;
-}
+  color: #D9853B; }
 
 .pom-control {
   margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-}
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .session-length, .break-length {
   margin: 0 2vw;
-  width: 150px;
-}
+  width: 150px; }
 
 p {
   margin: 5px;
-  padding: 0;
-}
+  padding: 0; }
 
 .time-adjust {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-}
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 h3 {
   margin: 0 5px;
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 .controlls {
-  margin: 40px auto;
-}
+  margin: 40px auto; }
 
 button {
   background-color: black;
@@ -47,20 +47,17 @@ button {
   height: 40px;
   width: 80px;
   border: none;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 button:active {
-  transform: translate(0px, 3px);
-}
+  -webkit-transform: translate(0px, 3px);
+          transform: translate(0px, 3px); }
 
 button:focus {
-  outline: 0;
-}
+  outline: 0; }
 
 .my-btn:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .clock {
   border: solid black 1px;
@@ -69,13 +66,10 @@ button:focus {
   width: 200px;
   margin: 20px auto;
   background-color: #ECECEA;
-  color: black;
-}
+  color: black; }
 
 h2 {
-  margin: 45px;
-}
+  margin: 45px; }
 
 .monospace {
-  font-family: 'Roboto Mono', monospace;
-}
+  font-family: 'Roboto Mono', monospace; }
